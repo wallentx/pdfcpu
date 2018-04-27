@@ -167,11 +167,11 @@ func validateDateObject(xRefTable *types.XRefTable, obj types.PDFObject, sinceVe
 	return xRefTable.DereferenceStringLiteral(obj, sinceVersion, validateDate)
 }
 
-func validateDateEntry(xRefTable *types.XRefTable, dict *types.PDFDict, dictName, entryName string, required bool, sinceVersion types.PDFVersion) (*types.PDFStringLiteral, error) {
+func validateDateEntry(xRefTable *types.XRefTable, dict *types.PDFDict, dictName, entryName string, optional bool, sinceVersion types.PDFVersion) (*types.PDFStringLiteral, error) {
 
 	log.Debug.Printf("validateDateEntry begin: entry=%s\n", entryName)
 
-	obj, err := dict.Entry(dictName, entryName, required)
+	obj, err := dict.Entry(dictName, entryName, optional)
 	if err != nil || obj == nil {
 		return nil, err
 	}
@@ -213,7 +213,7 @@ func validateDictEntry(xRefTable *types.XRefTable, dict *types.PDFDict, dictName
 
 	log.Debug.Printf("validateDictEntry begin: entry=%s\n", entryName)
 
-	obj, err := dict.Entry(dictName, entryName, required)
+	obj, err := dict.Entry(dictName, entryName, optional)
 	if err != nil || obj == nil {
 		return nil, err
 	}
