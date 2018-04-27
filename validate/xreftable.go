@@ -516,7 +516,7 @@ func validatePieceDict(xRefTable *types.XRefTable, dict *types.PDFDict) error {
 			continue
 		}
 
-		_, err = validateDateEntry(xRefTable, dict, dictName, "LastModified", REQUIRED, types.V10)
+		_, err = validateDateEntry(xRefTable, dict, dictName, "LastModified", OPTIONAL, types.V10)
 		if err != nil {
 			return err
 		}
