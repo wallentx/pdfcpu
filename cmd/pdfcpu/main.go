@@ -7,9 +7,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/hhrutter/pdfcpu"
-	PDFCPULog "github.com/hhrutter/pdfcpu/log"
-	"github.com/hhrutter/pdfcpu/types"
+	"github.com/wallentx/pdfcpu-fork"
+	PDFCPULog "github.com/wallentx/pdfcpu-fork/log"
+	"github.com/wallentx/pdfcpu-fork/types"
 )
 
 var (

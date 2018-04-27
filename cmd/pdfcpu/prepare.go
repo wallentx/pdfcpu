@@ -6,8 +6,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/hhrutter/pdfcpu"
-	"github.com/hhrutter/pdfcpu/types"
+	"github.com/wallentx/pdfcpu-fork"
+	"github.com/wallentx/pdfcpu-fork/types"
 )
 
 func prepareValidateCommand(config *types.Configuration) *pdfcpu.Command {
