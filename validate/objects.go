@@ -181,7 +181,7 @@ func validateDateEntry(xRefTable *types.XRefTable, dict *types.PDFDict, dictName
 		return nil, err
 	}
 	if obj == nil {
-		if required {
+		if optional {
 			return nil, errors.Errorf("validateDateEntry: dict=%s required entry=%s is nil", dictName, entryName)
 		}
 		log.Debug.Printf("validateDateEntry end: optional entry %s is nil\n", entryName)
@@ -209,7 +209,7 @@ func validateDateEntry(xRefTable *types.XRefTable, dict *types.PDFDict, dictName
 	return &date, nil
 }
 
-func validateDictEntry(xRefTable *types.XRefTable, dict *types.PDFDict, dictName, entryName string, required bool, sinceVersion types.PDFVersion, validate func(types.PDFDict) bool) (*types.PDFDict, error) {
+func validateDictEntry(xRefTable *types.XRefTable, dict *types.PDFDict, dictName, entryName string, optional bool, sinceVersion types.PDFVersion, validate func(types.PDFDict) bool) (*types.PDFDict, error) {
 
 	log.Debug.Printf("validateDictEntry begin: entry=%s\n", entryName)
 
@@ -223,7 +223,7 @@ func validateDictEntry(xRefTable *types.XRefTable, dict *types.PDFDict, dictName
 		return nil, err
 	}
 	if obj == nil {
-		if required {
+		if optional {
 			return nil, errors.Errorf("validateDictEntry: dict=%s required entry=%s is nil", dictName, entryName)
 		}
 		log.Debug.Printf("validateDictEntry end: optional entry %s is nil\n", entryName)
