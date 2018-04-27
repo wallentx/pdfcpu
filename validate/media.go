@@ -1,7 +1,7 @@
 package validate
 
 import (
-	"github.com/hhrutter/pdfcpu/types"
+	"github.com/wallentx/pdfcpu-fork/types"
 )
 
 func validateMinimumBitDepthDict(xRefTable *types.XRefTable, dict *types.PDFDict, sinceVersion types.PDFVersion) error {

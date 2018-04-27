@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hhrutter/pdfcpu/types"
+	"github.com/wallentx/pdfcpu-fork/types"
 )
 
 func prevalidateDate(s string) (string, bool) {

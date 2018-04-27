@@ -7,9 +7,9 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/hhrutter/pdfcpu/filter"
-	"github.com/hhrutter/pdfcpu/types"
-	"github.com/hhrutter/pdfcpu/write"
+	"github.com/wallentx/pdfcpu-fork/filter"
+	"github.com/wallentx/pdfcpu-fork/types"
+	"github.com/wallentx/pdfcpu-fork/write"
 )
 
 const testAudioFileWAV = "testdata/test.wav"

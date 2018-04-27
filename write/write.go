@@ -10,10 +10,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/hhrutter/pdfcpu/crypto"
-	"github.com/hhrutter/pdfcpu/filter"
-	"github.com/hhrutter/pdfcpu/log"
-	"github.com/hhrutter/pdfcpu/types"
+	"github.com/wallentx/pdfcpu-fork/crypto"
+	"github.com/wallentx/pdfcpu-fork/filter"
+	"github.com/wallentx/pdfcpu-fork/log"
+	"github.com/wallentx/pdfcpu-fork/types"
 	"github.com/pkg/errors"
 )
 

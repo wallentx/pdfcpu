@@ -7,8 +7,8 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/hhrutter/pdfcpu/log"
-	"github.com/hhrutter/pdfcpu/types"
+	"github.com/wallentx/pdfcpu-fork/log"
+	"github.com/wallentx/pdfcpu-fork/types"
 	"github.com/pkg/errors"
 )
 

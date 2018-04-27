@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hhrutter/pdfcpu/log"
+	"github.com/wallentx/pdfcpu-fork/log"
 )
 
 const maxEntries = 3

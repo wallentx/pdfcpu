@@ -6,8 +6,8 @@ package merge
 import (
 	"sort"
 
-	"github.com/hhrutter/pdfcpu/log"
-	"github.com/hhrutter/pdfcpu/types"
+	"github.com/wallentx/pdfcpu-fork/log"
+	"github.com/wallentx/pdfcpu-fork/types"
 )
 
 func patchIndRef(indRef *types.PDFIndirectRef, lookup map[int]int) {

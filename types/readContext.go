@@ -6,7 +6,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/hhrutter/pdfcpu/log"
+	"github.com/wallentx/pdfcpu-fork/log"
 )
 
 // ReadContext represents the context for reading a PDF file.

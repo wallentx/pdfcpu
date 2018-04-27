@@ -1,6 +1,6 @@
 package create
 
-import "github.com/hhrutter/pdfcpu/types"
+import "github.com/wallentx/pdfcpu-fork/types"
 
 // Functions needed to create a test.pdf that gets used for validation testing (see process_test.go)
 

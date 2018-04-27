@@ -1,7 +1,7 @@
 package pdfcpu
 
 import (
-	"github.com/hhrutter/pdfcpu/types"
+	"github.com/wallentx/pdfcpu-fork/types"
 	"github.com/pkg/errors"
 )
 

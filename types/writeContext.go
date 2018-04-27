@@ -3,7 +3,7 @@ package types
 import (
 	"bufio"
 
-	"github.com/hhrutter/pdfcpu/log"
+	"github.com/wallentx/pdfcpu-fork/log"
 )
 
 // WriteContext represents the context for writing a PDF file.

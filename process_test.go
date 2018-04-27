@@ -8,10 +8,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hhrutter/pdfcpu/create"
-	"github.com/hhrutter/pdfcpu/log"
-	"github.com/hhrutter/pdfcpu/types"
-	"github.com/hhrutter/pdfcpu/validate"
+	"github.com/wallentx/pdfcpu-fork/create"
+	"github.com/wallentx/pdfcpu-fork/log"
+	"github.com/wallentx/pdfcpu-fork/types"
+	"github.com/wallentx/pdfcpu-fork/validate"
 )
 
 const outputDir = "testdata/out"

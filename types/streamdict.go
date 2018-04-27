@@ -3,7 +3,7 @@ package types
 import (
 	"fmt"
 
-	"github.com/hhrutter/pdfcpu/log"
+	"github.com/wallentx/pdfcpu-fork/log"
 	"github.com/pkg/errors"
 )
 

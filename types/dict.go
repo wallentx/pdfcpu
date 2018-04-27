@@ -8,7 +8,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	PDFCPULog "github.com/hhrutter/pdfcpu/log"
+	PDFCPULog "github.com/wallentx/pdfcpu-fork/log"
 )
 
 // PDFDict represents a PDF dict object.

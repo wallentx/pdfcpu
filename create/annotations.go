@@ -4,9 +4,9 @@ import (
 	"path"
 	"time"
 
-	"github.com/hhrutter/pdfcpu/attach"
-	"github.com/hhrutter/pdfcpu/filter"
-	"github.com/hhrutter/pdfcpu/types"
+	"github.com/wallentx/pdfcpu-fork/attach"
+	"github.com/wallentx/pdfcpu-fork/filter"
+	"github.com/wallentx/pdfcpu-fork/types"
 )
 
 // Functions needed to create a test.pdf that gets used for validation testing (see process_test.go)

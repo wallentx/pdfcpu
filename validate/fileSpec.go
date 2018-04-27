@@ -3,7 +3,7 @@ package validate
 import (
 	"net/url"
 
-	"github.com/hhrutter/pdfcpu/types"
+	"github.com/wallentx/pdfcpu-fork/types"
 
 	"github.com/pkg/errors"
 )

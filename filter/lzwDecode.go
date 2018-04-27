@@ -5,7 +5,7 @@ import (
 	"compress/lzw"
 	"io"
 
-	"github.com/hhrutter/pdfcpu/log"
+	"github.com/wallentx/pdfcpu-fork/log"
 )
 
 type lzwDecode struct {

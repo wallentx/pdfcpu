@@ -6,7 +6,7 @@ import (
 
 	"strings"
 
-	"github.com/hhrutter/pdfcpu/types"
+	"github.com/wallentx/pdfcpu-fork/types"
 )
 
 var r *regexp.Regexp
